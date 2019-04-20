@@ -56,11 +56,41 @@ h6 {
 .card {
     height: 82%;
     margin-top: 25%;
-    background-color: rgba(255, 255, 255, .2)
+    background-color: rgba(255, 255, 255, .2);
+    padding-top: 20px;
 }
 
 .card:hover {
     box-shadow: 0 14px 20px rgba(0, 0, 0, .10), 0 10px 10px rgba(0, 0, 0, 0.10);
+}
+
+.collapsible {
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: Cabin,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin: 0 0 35px;
+    background-color: #c4c4c4;
+    color:#3a3a3a;
+    text-transform: uppercase;
+}
+
+.active,
+.collapsible:hover {
+    background-color: white;
+}
+
+.content1 {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #17a2b8;
 }
 
 p {
@@ -199,9 +229,12 @@ a:hover {
     }
 
     .masthead .intro-body .intro-text {
-        font-size: 22px
+        font-size: 30px;
+        
+
     }
 }
+
 
 .btn-circle {
     font-size: 26px;
