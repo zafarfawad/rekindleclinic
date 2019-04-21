@@ -44,9 +44,9 @@
     }
 
     $('.carousel').carousel({
-        interval: 2000
+        interval: 1000
     })
-    
+
     navbarCollapse();
     $(window).scroll(navbarCollapse)
 })(jQuery)

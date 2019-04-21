@@ -1,0 +1,53 @@
+.carousel-fade .carousel-inner .carousel-item {
+    opacity: 0;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+.carousel-item:nth-child(1) {
+    top: 0;
+    background: url(../img/intro-bg.jpg) top right no-repeat #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .29);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel-item:nth-child(2) {
+    top: 0;
+    background: url(../img/depression.jpg) top right no-repeat #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .29);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel-item:nth-child(3) {
+    top: 0;
+    background: url(../img/couples-therapy.jpg) top right no-repeat #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .29);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel {
+    z-index: -99;
+}
+.carousel .carousel-item {
+    position: fixed;
+    height: 100%;
+}

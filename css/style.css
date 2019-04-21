@@ -27,8 +27,7 @@ body {
 }
 
 .masthead,
-.school-section,
-.treatments-section {
+.white-section {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .29)
 }
 
@@ -196,7 +195,7 @@ a:hover {
     padding: 230px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) top right no-repeat #000;
+    background: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -263,9 +262,17 @@ a:hover {
     padding-bottom: 5%
 }
 
-.treatments-section {
+.white-section {
     color: rgba(0, 0, 0, 0.7) ;
     background: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.black-section {
+    color: white(0, 0, 0, 0.7) ;
+    background: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
