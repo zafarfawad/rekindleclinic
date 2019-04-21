@@ -31,6 +31,8 @@
 
   <!-- Custom styles -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/workshop.css" rel='stylesheet'>
+  <link href='css/carousel.css' rel='stylesheet'>
 </head>
 
 <body id="page-top">
@@ -73,7 +75,15 @@
   </nav>
 
   <!-- Intro Header -->
-  <header class="masthead">
+  <header class="masthead carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+      </div>
+      <div class="carousel-item">
+      </div>
+      <div class="carousel-item">
+      </div>
+    </div>
     <div class="intro-body">
       <div class="container">
         <div class="row">
@@ -93,7 +103,7 @@
   </header>
 
   <!-- About Section -->
-  <section id="about" class="content-section bubbles">
+  <section id="about" class="black-section content-section bubbles">
     <div class="container">
       <div class="row text-right">
         <div class='col-lg-5 col'>
@@ -112,7 +122,7 @@
   </section>
 
   <!-- Treatments Section -->
-  <section id="treatments" class="treatments-section content-section text-center">
+  <section id="treatments" class="white-section content-section text-center">
     <div class="container">
       <div class="col-lg-8 mx-auto">
         <p>WHAT WE OFFER FOR YOU</p>
@@ -165,7 +175,7 @@
   </section>
 
   <!-- Workshops Section -->
-  <section id="workshops" class="treatments-section content-section text-center">
+  <section id="workshops" class="black-section content-section text-center">
     <div class="container">
       <div class="col-lg-8 mx-auto">
         <p>Engaging minds, empowering success.</p>
@@ -176,98 +186,76 @@
     <div class="container">
       <div class='row'>
         <div data-aos="fade-up" data-aos-duration="300" class="col-sm-4">
-          <div class="card">
-            <div class="card-body text-center">
-              <p class='service-logo'>
-                <img class="img-fluid" src='img/parental counselling.jpg'>
-              </p>
-              <button class="collapsible">PARENTAL COUNSELING</button>
-              <div class="content1">
-                <p> If you are a mom or dad dealing with constant defiance and power struggle or if your
-                  child is having difficulties in coping up with anxiety and manage his all of which create an unhealthy
-                  frustrating environment in the family. We can help your child to regulate his emotions effectively and
-                  help you learn strategies to deal with your child’s behavior.</p>
-              </div>
-            </div>
-          </div>
+          <figure class="hoverEffect">
+            <img class='img-fluid' src="img/depression.jpg" />
+            <figcaption>
+              <p>If you are a mom or dad dealing with constant defiance and power struggle or if your
+                child is having difficulties in coping up with anxiety and manage his all of which create an unhealthy
+                frustrating environment in the family. We can help your child to regulate his emotions effectively and
+                help you learn strategies to deal with your child’s behavior.</p>
+            </figcaption>
+          </figure>
+          <h4 class='text-center'>PARENTAL COUNSELING</h4>
         </div>
-
         <div data-aos="fade-up" data-aos-duration="300" class="col-sm-4">
-          <div class="card">
-            <div class="card-body text-center">
-              <p class='service-logo'>
-                <img class="img-fluid" src='img/anxiety-disorder.jpg'>
-              </p>
-              <button class="collapsible">MARITAL COUNSELING</button>
-              <div class="content1">
-                <p>If you feel the spark in your marriage is gone or there is a growing resentment and hostility. If
-                  there is a lack of respect and affection in your relationship. Don’t panic, there is still hope. We
-                  help the couples to understand the origins of their problems. It then gives them practical tools and
-                  strategies to reconnect and build a new relationship.</p>
-              </div>
-            </div>
-          </div>
+          <figure class="hoverEffect">
+            <img class='img-fluid' src="img/depression.jpg" />
+            <figcaption>
+              <p>If you feel the spark in your marriage is gone or there is a growing resentment and hostility. If
+                there is a lack of respect and affection in your relationship. Don’t panic, there is still hope. We
+                help the couples to understand the origins of their problems. It then gives them practical tools and
+                strategies to reconnect and build a new relationship.</p>
+            </figcaption>
+          </figure>
+          <h4 class='text-center'>MARITAL COUNSELING</h4>
         </div>
-
         <div data-aos="fade-up" data-aos-duration="300" class="col-sm-4">
-          <div class="card">
-            <div class="card-body text-center">
-              <p class='service-logo'>
-                <img class="img-fluid" src='img/depression.jpg'>
+          <figure class="hoverEffect">
+            <img class='img-fluid' src="img/depression.jpg" />
+            <figcaption>
+              <p>Its normal to get anxious before an exam, at a new place or at a job interview. The discomforting
+                feelings (racing heart, rapid breathing, nervousness, lack of concentration etc.) faced in these
+                situations motivate you to work harder and achieve the desired results. However, if these feelings
+                interfere with your daily life and disrupts functioning then you need help. If you feel disconnect
+                between your mind and body, we can help you to overcome the symptoms and lead a more manageable life.
               </p>
-              <button class="collapsible">Anxiety treatment</button>
-              <div class="content1">
-                <p>Its normal to get anxious before an exam, at a new place or at a job interview. The discomforting
-                  feelings (racing heart, rapid breathing, nervousness, lack of concentration etc.) faced in these
-                  situations motivate you to work harder and achieve the desired results. However, if these feelings
-                  interfere with your daily life and disrupts functioning then you need help. If you feel disconnect
-                  between your mind and body, we can help you to overcome the symptoms and lead a more manageable life.
-                </p>
-              </div>
-            </div>
-          </div>
+            </figcaption>
+          </figure>
+          <h4 class='text-center'>Anxiety treatment</h4>
         </div>
-
+        <div class='col-sm-2'></div>
         <div data-aos="fade-up" data-aos-duration="300" class="col-sm-4">
-          <div class="card">
-            <div class="card-body text-center">
-              <p class='service-logo'>
-                <img class="img-fluid" src='img/depression.jpg'>
+          <figure class="hoverEffect">
+            <img class='img-fluid' src="img/depression.jpg" />
+            <figcaption>
+              <p>There are times in your life when you feel low. However, if these spells of sad feelings become
+                persistent for weeks or months. If you are feeling hopeless, losing interest in activities, losing
+                appetite, lacking motivation then you are at the right place. We are here to help you overcome your
+                depression and rekindle your life.
               </p>
-              <button class="collapsible">Depression treatment</button>
-              <div class="content1">
-                <p>There are times in your life when you feel low. However, if these spells of sad feelings become
-                  persistent for weeks or months. If you are feeling hopeless, losing interest in activities, losing
-                  appetite, lacking motivation then you are at the right place. We are here to help you overcome your
-                  depression and rekindle your life.
-                </p>
-              </div>
-            </div>
-          </div>
+            </figcaption>
+          </figure>
+          <h4 class='text-center'>Depression treatment</h4>
         </div>
-
         <div data-aos="fade-up" data-aos-duration="300" class="col-sm-4">
-          <div class="card">
-            <div class="card-body text-center">
-              <p class='service-logo'>
-                <img class="img-fluid" src='img/depression.jpg'>
+          <figure class="hoverEffect">
+            <img class='img-fluid' src="img/depression.jpg" />
+            <figcaption>
+              <p>You may be attending seminars, engaged in self-help literature or inspired by others’ success
+                stories. However, self-doubts, low self-esteem, lack of confidence are the blockages to incorporate
+                those skills in your life. We facilitate you in taking steps to bring your efforts for personal
+                development to life.
               </p>
-              <button class="collapsible">Personal developmentx</button>
-              <div class="content1">
-                <p>You may be attending seminars, engaged in self-help literature or inspired by others’ success
-                  stories. However, self-doubts, low self-esteem, lack of confidence are the blockages to incorporate
-                  those skills in your life. We facilitate you in taking steps to bring your efforts for personal
-                  development to life.
-                </p>
-              </div>
-            </div>
-          </div>
+            </figcaption>
+          </figure>
+          <h4 class='text-center'>Personal development</h4>
         </div>
+        <div class='col-sm-2'></div>
       </div>
     </div>
   </section>
   <!-- Contact Section -->
-  <section id="contact" class="content-section text-center">
+  <section id="contact" class="white-section content-section text-center">
     <div class="container">
       <div class="row text-left">
         <div class="col-lg-5 mx-auto">
@@ -310,15 +298,15 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts -->
-  <script src="js/script.min.js"></script>
   <script src="js/script.js"></script>
 
 
   <!-- Animate -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/aos.js"></script>
   <script>
     AOS.init();
   </script>
+
 </body>
 
 </html>
